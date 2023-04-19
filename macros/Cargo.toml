@@ -1,0 +1,18 @@
+[package]
+name = "bevy_proto_resource_tuples_macros"
+description = "A prototype for a new resources API in bevy"
+version = "0.1.0"
+edition = "2021"
+authors = ["JonahPlusPlus <33059163+JonahPlusPlus@users.noreply.github.com>"]
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/bevy_proto_resource_tuples"
+homepage = "https://github.com/JonahPlusPlus/bevy_proto_resource_tuples"
+repository = "https://github.com/JonahPlusPlus/bevy_proto_resource_tuples"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = "1.0"
