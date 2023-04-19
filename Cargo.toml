@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 documentation = "https://docs.rs/bevy_proto_resource_tuples"
 homepage = "https://github.com/JonahPlusPlus/bevy_proto_resource_tuples"
 repository = "https://github.com/JonahPlusPlus/bevy_proto_resource_tuples"
-exclude = ["/examples/"]
+exclude = ["/examples/", "/macros/"]
 
 [dependencies]
 bevy_app = "0.10"
